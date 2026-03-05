@@ -18,7 +18,7 @@ Thanks for wanting to contribute! This repo is a community resource for Claude C
 
 ### Agents
 New agents that handle specific tasks well:
-- Language-specific reviewers (Python, Go, Rust)
+- Language-specific reviewers (Python, Go, Rust, C, C++)
 - Framework experts (Django, Rails, Laravel, Spring)
 - DevOps specialists (Kubernetes, Terraform, CI/CD)
 - Domain experts (ML pipelines, data engineering, mobile)

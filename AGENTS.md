@@ -1,6 +1,6 @@
 # Everything Claude Code (ECC) — Agent Instructions
 
-This is a **production-ready AI coding plugin** providing 13 specialized agents, 50+ skills, 33 commands, and automated hook workflows for software development.
+This is a **production-ready AI coding plugin** providing 17 specialized agents, 50+ skills, 36+ commands, and automated hook workflows for software development.
 
 ## Core Principles
 
@@ -27,6 +27,10 @@ This is a **production-ready AI coding plugin** providing 13 specialized agents,
 | go-build-resolver | Go build errors | Go build failures |
 | database-reviewer | PostgreSQL/Supabase specialist | Schema design, query optimization |
 | python-reviewer | Python code review | Python projects |
+| c-reviewer | C code review (memory safety, CERT C) | C projects |
+| cpp-reviewer | C++ code review (RAII, UB, modern C++) | C++ projects |
+| cpp-build-resolver | C++ build/CMake/linker errors | C++ build failures |
+| chief-of-staff | Communication triage and drafting | Multi-channel comms |
 
 ## Agent Orchestration
 
@@ -117,9 +121,9 @@ Troubleshoot failures: check test isolation → verify mocks → fix implementat
 ## Project Structure
 
 ```
-agents/          — 13 specialized subagents
+agents/          — 17 specialized subagents
 skills/          — 50+ workflow skills and domain knowledge
-commands/        — 33 slash commands
+commands/        — 36+ slash commands
 hooks/           — Trigger-based automations
 rules/           — Always-follow guidelines (common + per-language)
 scripts/         — Cross-platform Node.js utilities

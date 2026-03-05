@@ -17,9 +17,9 @@ approval_policy = "on-request"
 sandbox_mode = "workspace-write"
 
 # Notifications (macOS)
-[notify]
-command = "terminal-notifier -title 'Codex ECC' -message 'Task completed!' -sound default"
-on_complete = true
+#[notify]
+#command = "terminal-notifier -title 'Codex ECC' -message 'Task completed!' -sound default"
+#on_complete = true
 
 # History - persistent instructions applied to every session
 [history]
@@ -34,6 +34,7 @@ Follow ECC principles:
 6. Error handling: handle at every level, never swallow errors
 7. Input validation: schema-based validation at system boundaries
 """
+persistence = "save-all"
 
 # MCP Servers
 # Codex supports command-based MCP servers
