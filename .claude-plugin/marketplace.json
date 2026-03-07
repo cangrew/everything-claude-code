@@ -1,26 +1,26 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "everything-claude-code",
-  "description": "Battle-tested Claude Code configurations from an Anthropic hackathon winner — agents, skills, hooks, commands, and rules evolved over 10+ months of intensive daily use",
+  "description": "Battle-tested Claude Code configurations — agents, skills, hooks, commands, and rules for TDD, security, code review, and C/C++/Go/Python workflows",
   "owner": {
-    "name": "Affaan Mustafa",
-    "email": "me@affaanmustafa.com"
+    "name": "Andres Delgado",
+    "email": "andres.delgado@ucf.edu"
   },
   "metadata": {
-    "description": "Battle-tested Claude Code configurations from an Anthropic hackathon winner"
+    "description": "Battle-tested Claude Code configurations — agents, skills, hooks, commands, and rules for TDD, security, code review, and C/C++/Go/Python workflows"
   },
   "plugins": [
     {
       "name": "everything-claude-code",
       "source": "./",
-      "description": "The most comprehensive Claude Code plugin — 14+ agents, 56+ skills, 33+ commands, and production-ready hooks for TDD, security scanning, code review, and continuous learning",
+      "description": "Comprehensive Claude Code plugin — 17+ agents, 58+ skills, 39+ commands, and production-ready hooks for TDD, security scanning, code review, and C/C++/Go/Python workflows",
       "version": "1.7.0",
       "author": {
-        "name": "Affaan Mustafa",
-        "email": "me@affaanmustafa.com"
+        "name": "Andres Delgado",
+        "email": "andres.delgado@ucf.edu"
       },
-      "homepage": "https://github.com/affaan-m/everything-claude-code",
-      "repository": "https://github.com/affaan-m/everything-claude-code",
+      "homepage": "https://github.com/cangrew/everything-claude-code",
+      "repository": "https://github.com/cangrew/everything-claude-code",
       "license": "MIT",
       "keywords": [
         "agents",
